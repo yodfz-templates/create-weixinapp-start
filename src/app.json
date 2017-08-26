@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/service/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff6142",
+    "navigationBarTitleText": "小机匠 - 专业的在线维修回收平台",
+    "navigationBarTextStyle":"white"
+  }
+}

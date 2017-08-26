@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="topButton">
+        <image class="service"
+               bindtap="nativeToService"
+               mode="aspectFit" src="/resources/images/service.png"></image>
+        <image class="recover" mode="aspectFit" src="/resources/images/recover.png"></image>
+    </view>
+    <view class="flex flexCenter">
+        <image src="/resources/images/member.png" class="member"></image>
+    </view>
+    <view class="menuList">
+        <view class="menuButton" wx:for="{{menu}}" wx:key="idx">
+            <image class="menuButtonIcon"></image>
+            {{item.text}}
+        </view>
+    </view>
+</view>

@@ -1,0 +1,50 @@
+.topButton{
+    position: relative;
+    width:100%;
+    height:380rpx;
+    background:linear-gradient(to bottom,#ff6142,#ff874c);
+}
+
+.service{
+    position: absolute;
+    top:95rpx;
+    left:150rpx;
+    width:170rpx;
+    height:243rpx;
+}
+
+.recover{
+    position: absolute;
+    top:95rpx;
+    right:100rpx;
+    width:181rpx;
+    height:243rpx;
+}
+.member_base{
+}
+.member{
+    margin-top:85rpx;
+    width:464rpx;
+    height:73rpx;
+    margin-bottom:50rpx;
+}
+.menuList{
+    padding-left:48rpx;
+    padding-right:22rpx;
+}
+.menuButton{
+    float: left;
+    width:314rpx;
+    height:128rpx;
+    background-color: #f8f8f8;
+    border-radius:15rpx;
+    margin-right:26rpx;
+    margin-bottom:24rpx;
+    line-height:128rpx;
+    font-size:28rpx;
+    text-indent: 30rpx;
+}
+.menuButtonIcon{
+    width:50rpx;
+    height:50rpx;
+}
